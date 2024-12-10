@@ -32,6 +32,7 @@ namespace ConsoleApp1
             double pentagonArea = area1 + area2 + area3;
 
             Console.WriteLine($"Площадь пятиугольника: {pentagonArea}");
+            Console.ReadLine();
         }
 
         static (double x, double y) ReadCoordinates()
