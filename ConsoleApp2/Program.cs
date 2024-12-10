@@ -24,6 +24,7 @@ namespace ConsoleApp2
 
             double maxNumber = FindMax(numbers);
             Console.WriteLine($"Максимальное число: {maxNumber}");
+            Console.ReadLine();
         }
 
         static double Max(double a, double b)
